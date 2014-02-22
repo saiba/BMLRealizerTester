@@ -1,8 +1,0 @@
-<!--
-Expected timing:
-nod1:start = 0
--->
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml2" xmlns:bmla="http://www.asap-project.org/bmla">
-	<head id="nod1" lexeme="SHAKE"/>
-	<bmla:activate id="a1" start="nod1:end" target="bml1"/>	
-</bml>

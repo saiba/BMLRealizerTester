@@ -1,7 +1,0 @@
-<!--
-Fully overlapping gaze behaviors, should generate an exception and drop one of the behaviors.
--->
-<bml id="bml1">
-	<gaze id="gaze1" start="1" end="10" type="AT" modality="NECK" target="bluebox"/>	
-	<gaze id="gaze2" start="1" end="10" type="AT" modality="NECK" target="bluebox"/>	
-</bml>

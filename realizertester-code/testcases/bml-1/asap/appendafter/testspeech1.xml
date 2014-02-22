@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
-	<speech id="speech1"> 
-  	<text>One </text>
-  </speech>    
-</bml>

@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml id="bml1" xmlns:bmlt="http://hmi.ewi.utwente.nl/bmlt" bmlt:preplan="true">
-	<speech id="speech1"> 
-  	<text>Elckerlyc is a BML compliant behavior realizer for generating multimodal verbal and nonverbal behavior for Virtual Humans (VHs). It is designed specifically for continuous (as opposed to turn-based) interaction with tight temporal coordination between the behavior of a VH and its interaction partners. Animation in Elckerlyc is generated using a mix between the precise temporal and spatial control offered by procedural motion and the naturalness of physical simulation.</text>
-  </speech>    
-</bml>

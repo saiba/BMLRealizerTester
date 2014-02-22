@@ -1,7 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml4" composition="APPEND-AFTER(bml1,bml2)">
-	<head id="nod1" lexeme="NOD"/>
-</bml>

@@ -1,5 +1,0 @@
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
-  <postureShift start="5" end="8" id="pose1">
-    <stance type="SITTING"/> 
-  </postureShift>
-</bml>

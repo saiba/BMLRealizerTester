@@ -1,9 +1,0 @@
-<bml id="bml1">
-<speech id = "welkom" type="text/plain">
-  <tm id="deicticheart1"/> Welcome! I am Griet, I am 16 year old and I would like to tell you something about my life. People know me as the girl with the pearl ear ring. 
-  My father can no longer work since he was blinded. <tm id="beat1b1"/>Because we still need to eat, I took service with a local painter. His name is Johannes Vermeer.
-</speech>
-<gesture id="g1" type="BEAT" start="welkom:deicticheart1" end="welkom:deicticheart1+1" />
-<gesture id="relaxleft" type="BEAT" start="g1:end+0.5" end="g1:end+0.8"/>  
-<gesture id="transleft" type="BEAT" start="g1:start-1" end="g1:start"/>  
-</bml>

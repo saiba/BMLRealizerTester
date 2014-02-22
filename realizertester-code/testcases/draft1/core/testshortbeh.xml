@@ -1,9 +1,0 @@
-<!--
-Required timing:
-nod1:start = 0
-nod1:end = 0.00001
-Could send warning, but should at least provide BML end feedback for bml1
--->
-<bml id="bml1">
-	<head start="0" end="0.00001" id="nod1" action="ROTATION" rotation="NOD"/>
-</bml>

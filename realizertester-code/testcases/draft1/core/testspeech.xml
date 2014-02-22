@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml id="bml1">
-	<speech id="speech1"> 
-  	<text>Welcome ladies and gentlemen!</text>
-  </speech>    
-</bml>
