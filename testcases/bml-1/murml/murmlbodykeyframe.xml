@@ -1,0 +1,37 @@
+<!--
+Required timing:
+none
+
+Constraints:
+none
+
+Constraints tested in: test.bml.ParserTest
+Timing tested in: test.bml.TestScheduler
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
+<murmlgesture xmlns="http://www.techfak.uni-bielefeld.de/ags/soa/murml" id="gesture1" start="2">
+<murml-description>
+<dynamic>
+	<keyframing easescale="10" easeturningpoint="0.5" >
+		<phase>
+		<frame ftime="0">
+		<posture>Humanoid (l_shoulder 3 0 0 0)</posture>
+		</frame>
+		<frame ftime="0.5">
+		<posture>Humanoid (l_shoulder 3 100 0 0)</posture>
+		</frame>
+		<frame ftime="1">
+		<posture>Humanoid (l_shoulder 3 0 0 0)</posture>
+		</frame>		
+		<frame ftime="1.5">
+		<posture>Humanoid (l_shoulder 3 100 0 0)</posture>
+		</frame>
+		<frame ftime="2">
+		<posture>Humanoid (l_shoulder 3 0 0 0)</posture>
+		</frame>		
+		</phase>
+	</keyframing>
+</dynamic>
+</murml-description>
+</murmlgesture>
+</bml>

@@ -1,0 +1,7 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml3" xmlns:bmla="http://www.asap-project.org/bmla" bmla:interrupt="bml1" bmla:onStart="bml2">
+	<head id="nod1" lexeme="SHAKE"/>
+</bml>

@@ -1,0 +1,4 @@
+<bml id="bml1">
+		<gaze id="gaze1" start="1" end="10" target="bluebox"/>
+		<gaze id="gaze2" start="1" end="10" target="bluebox"/>
+</bml>

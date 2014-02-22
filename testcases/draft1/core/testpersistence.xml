@@ -1,0 +1,7 @@
+<!--
+Persistent posture, should send BML end message after the ready feedback of pose1 is reached.
+If this posture is replaced by a new BML block, or if it is interrupted, end feedback should be sent (?)
+-->
+<bml id="bml1">
+	<posture id="pose1" stance="standing" shape="open" part="lower"/>	
+</bml>

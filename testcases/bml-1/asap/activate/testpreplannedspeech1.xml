@@ -1,0 +1,9 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1" xmlns:bmla="http://www.asap-project.org/bmla" bmla:preplan="true">
+	<speech id="speech1"> 
+  	<text>AsapRealizer is a novel realizer, developed as a jointly by the Sociable Agents group in Bielefeld and the Human Media Interaction group in Twente.</text>
+  </speech>    
+</bml>

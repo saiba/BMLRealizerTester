@@ -1,0 +1,6 @@
+<bml id="bml1">
+  <speech id="speech1" start="5">
+  	<text>This is the first chunk<sync id="chunk"/></text>
+  </speech>
+  <gesture id="g1" type="BEAT" hand="LEFT" stroke="speech1:chunk"/>
+</bml>

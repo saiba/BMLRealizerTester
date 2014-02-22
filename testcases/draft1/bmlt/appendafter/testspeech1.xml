@@ -1,0 +1,9 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml id="bml1">
+	<speech id="speech1"> 
+  	<text>One </text>
+  </speech>    
+</bml>

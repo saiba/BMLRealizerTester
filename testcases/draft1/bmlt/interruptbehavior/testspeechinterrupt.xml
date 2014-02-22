@@ -1,0 +1,14 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml id="bml2" xmlns:bmlt="http://hmi.ewi.utwente.nl/bmlt" bmlt:allowexternalrefs="true">
+  <!--
+  <bmlt:interrupt id="i1" target="bml1">
+  	<bmlt:interruptspec behavior="speech1" interruptSync="s1" onStart="bml3"/>
+  </bmlt:interrupt>
+  -->
+  <bmlt:interrupt id="i1" target="bml1" exclude="speech1"/>
+  <bmlt:interrupt id="i2" target="bml1" include="speech1" start="bml1:speech1:s1"/>
+  <bmlt:activate id="a1" start="bml1:speech1:s1" target="bml3"/>
+</bml>

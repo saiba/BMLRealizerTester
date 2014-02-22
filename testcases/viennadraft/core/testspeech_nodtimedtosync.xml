@@ -1,0 +1,6 @@
+<bml id="bml1">
+	<speech id="speech1" start="6" type="text/plain">
+	Hey punk <tm id="syncstart1" />what do ya want?
+	</speech>
+	<head start="speech1:syncstart1" id="nod1" action="ROTATION" type="nod"/>
+</bml>

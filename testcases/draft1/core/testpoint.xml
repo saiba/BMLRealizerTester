@@ -1,0 +1,6 @@
+<!--
+'Free' point. Should automaticly assign relax and ready phases and a hand.
+-->
+<bml id="bml1">
+	<gesture id="point1" type="POINT" start="1" end="10" target="bluebox"/>	
+</bml>

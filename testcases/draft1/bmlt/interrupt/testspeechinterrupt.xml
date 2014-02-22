@@ -1,0 +1,10 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml id="bml2" xmlns:bmlt="http://hmi.ewi.utwente.nl/bmlt">
+  <bmlt:interrupt start="2" id="i1" target="bml1"/>
+  <speech id="speech1" start="i1:start"> 
+  	<text>Oh no! I was interrupted.</text>
+  </speech>  
+</bml>

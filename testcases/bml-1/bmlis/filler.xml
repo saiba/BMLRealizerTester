@@ -1,0 +1,5 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" id="bml1">
+<speech id="speech1" xmlns:bmlis="http://www.asap-project.org/bmlis" bmlis:generatefiller="true">
+<text>Hello this is a basic BML test for the realizer bridge.</text>
+</speech>
+</bml>
