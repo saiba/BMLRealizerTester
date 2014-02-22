@@ -1,0 +1,7 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml id="bml3" xmlns:bmlt="http://hmi.ewi.utwente.nl/bmlt" bmlt:interrupt="bml1" bmlt:onStart="bml2">
+	<head id="nod1" action="ROTATION" rotation="SHAKE"/>
+</bml>

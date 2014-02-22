@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="patty" name="bml.realizertest.BMLRealizerHandlerTest" tests="4" time="0.126" timestamp="2013-02-11T16:55:19">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="/homes/hvanwelbergen/git_pool/realizertester/dist" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/vol/jdk-1.7/jdk1.7.0_09/jre/lib/resources.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/rt.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/sunrsasign.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/jsse.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/jce.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/charsets.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/lib/jfr.jar:/vol/jdk-1.7/jdk1.7.0_09/jre/classes" />
+    <property name="TODAY" value="February 11 2013" />
+    <property name="ant.file.BMLRealizerTester" value="/homes/hvanwelbergen/git_pool/realizertester/build.xml" />
+    <property name="junit.exclude" value="**/Abstract*.class" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/vol/soa/opt/ant/1.8.2/" />
+    <property name="java.runtime.version" value="1.7.0_09-b05" />
+    <property name="user.name" value="hvanwelbergen" />
+    <property name="user.language" value="en" />
+    <property name="build" value="/homes/hvanwelbergen/git_pool/realizertester/build" />
+    <property name="test.report.dir" value="test/report" />
+    <property name="sun.boot.library.path" value="/vol/jdk-1.7/jdk1.7.0_09/jre/lib/amd64" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="BMLRealizerTester" />
+    <property name="DSTAMP" value="20130211" />
+    <property name="java.version" value="1.7.0_09" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="test.resource.dir" value="test/resource/" />
+    <property name="test.src.dir" value="test/src/" />
+    <property name="java.endorsed.dirs" value="/vol/jdk-1.7/jdk1.7.0_09/jre/lib/endorsed" />
+    <property name="doc" value="/homes/hvanwelbergen/git_pool/realizertester/docs" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="test.lib.dir" value="test/lib/" />
+    <property name="java.class.version" value="51.0" />
+    <property name="src" value="/homes/hvanwelbergen/git_pool/realizertester/src" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/vol/jdk-1.7/jdk1.7.0_09/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/homes/hvanwelbergen/git_pool/realizertester/build.xml" />
+    <property name="os.version" value="3.2.0-37-generic" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="23.5-b02" />
+    <property name="ant.library.dir" value="/vol/soa/opt/ant/1.8.2//lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="user.home" value="/homes/hvanwelbergen" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="java.library.path" value="/homes/hvanwelbergen/git_pool/realizertester/${test.library.path}" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner bml.realizertest.BMLRealizerHandlerTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/homes/hvanwelbergen/git_pool/realizertester/test/build/results/TEST-bml.realizertest.BMLRealizerHandlerTest.xml crashfile=/homes/hvanwelbergen/git_pool/realizertester/junitvmwatcher1612330910090567621.properties propsfile=/homes/hvanwelbergen/git_pool/realizertester/junit476709162757642243.properties" />
+    <property name="java.class.path" value="/homes/hvanwelbergen/git_pool/realizertester/lib/HmiTestUtil-0.13.4.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/HmiUtil-1.2.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/HmiXml-1.15-dev30.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/guava-10.0.1.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/hamcrest-all-1.2.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/junit-4.8.1.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/logback-classic-0.9.21.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/logback-core-0.9.21.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/saibabml-0.17-dev36.jar:/homes/hvanwelbergen/git_pool/realizertester/lib/slf4j-api-1.6.4.jar:/homes/hvanwelbergen/git_pool/realizertester/build:/homes/hvanwelbergen/git_pool/realizertester/utils/bml-1/build:/homes/hvanwelbergen/git_pool/realizertester/test/build/classes:/homes/hvanwelbergen/develop/lib/java:/vol/soa/opt/ant/1.8.2/lib/ant-launcher.jar:/vol/soa/opt/ant/1.8.2/lib/ant.jar:/vol/soa/opt/ant/1.8.2/lib/ant-junit.jar:/vol/soa/opt/ant/1.8.2/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="TSTAMP" value="1755" />
+    <property name="build.test.classes.dir" value="/homes/hvanwelbergen/git_pool/realizertester/test/build/classes" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="junit.include" value="**/*Test.class" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/vol/jdk-1.7/jdk1.7.0_09/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/homes/hvanwelbergen/git_pool/realizertester" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="build.test.results.dir" value="/homes/hvanwelbergen/git_pool/realizertester/test/build/results" />
+    <property name="basedir" value="/homes/hvanwelbergen/git_pool/realizertester" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/vol/soa/opt/ant/1.8.2/lib/ant.jar" />
+    <property name="bml1utilssrc" value="/homes/hvanwelbergen/git_pool/realizertester/utils/bml-1/src" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.file.type.BMLRealizerTester" value="file" />
+    <property name="ant.project.invoked-targets" value="junitreport" />
+  </properties>
+  <testcase classname="bml.realizertest.BMLRealizerHandlerTest" name="assertSyncsInOrderPasses" time="0.062" />
+  <testcase classname="bml.realizertest.BMLRealizerHandlerTest" name="assertOnlyTheseSyncsInOrderFailure" time="0.0" />
+  <testcase classname="bml.realizertest.BMLRealizerHandlerTest" name="assertOnlyTheseSyncsInOrder" time="0.0" />
+  <testcase classname="bml.realizertest.BMLRealizerHandlerTest" name="assertSyncsInOrderFailsWithMissingSync" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

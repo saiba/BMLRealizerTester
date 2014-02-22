@@ -1,0 +1,9 @@
+<!--
+Expected timing:
+speech1:start = 0
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml2" composition="APPEND">
+	<speech id="speech1"> 
+  	<text>Two </text>
+  </speech>    
+</bml>

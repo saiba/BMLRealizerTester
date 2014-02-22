@@ -1,0 +1,7 @@
+<!--
+Required timing:
+speech1:start = 6
+-->
+<bml id="bml1">
+	<speech id="speech1" start="6"><text>Hey punk <sync id="syncstart1" />what do ya want?</text></speech>		
+</bml>

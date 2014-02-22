@@ -1,0 +1,6 @@
+<!--
+'Free' gaze. Should automaticly assign relax and ready phases.
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
+	<gaze id="gaze1" start="1" end="10" influence="NECK" target="bluebox"/>
+</bml>

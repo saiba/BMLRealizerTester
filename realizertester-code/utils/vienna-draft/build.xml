@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BMLRealizerTester"  default="compile">
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="../../dist"/>
+
+  
+
+
+  <target name="compile" depends="init" description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac debug="true" includeantruntime="false" 
+	srcdir="${src}" destdir="${build}"
+	source="1.6" target="1.6">
+    <classpath>
+      <pathelement path="${classpath}"/>
+	  <fileset dir="../../lib">
+        <include name="**/*.jar"/>
+      </fileset>      	  
+    </classpath>
+    </javac>
+  </target>
+
+ <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist}/lib"/>
+
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist}/lib/realizertester-utils-vienna-draft.jar">
+      <fileset dir="${build}"/>
+      <fileset dir="${src}"/>
+    </jar>
+  </target>
+  
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+</project>

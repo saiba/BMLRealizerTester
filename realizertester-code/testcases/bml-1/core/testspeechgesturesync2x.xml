@@ -1,0 +1,10 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
+  <gesture lexeme="BEAT" id="beat5"/>
+  <speech id="speech1" start="beat5:stroke"> 
+  	<text>Yes.</text>
+  </speech>    
+  <gesture lexeme="BEAT" id="beatstop" start="beat5:end+3"/>    
+  <speech id="speech2" start="beatstop:end"> 
+  	<text>That was absolutely great! You played really well.</text>
+  </speech>    
+</bml>

@@ -1,0 +1,6 @@
+<!--
+'Free' point. Should automaticly assign relax and ready phases and a hand.
+-->
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
+	<pointing id="point1" start="1" end="10" target="bluebox"/>		
+</bml>

@@ -1,0 +1,6 @@
+<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml2" xmlns:bmla="http://www.asap-project.org/bmla" bmla:chunkAfter="bml1">
+	<speech id="speech1"> 
+  	<text><sync id="this"/>This is the second chunk.</text>
+  </speech>
+  <gesture id="g1" stroke="speech1:this" mode="LEFT_HAND" lexeme="BEAT"/>
+</bml>
