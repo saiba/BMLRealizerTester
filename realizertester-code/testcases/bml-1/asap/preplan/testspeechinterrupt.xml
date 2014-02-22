@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml2" xmlns:bmla="http://www.asap-project.org/bmla" bmla:preplan="true">
-	<speech id="speech1"> 
-  	<text>Oh no! I was interrupted.</text>
-  </speech>    
-</bml>

@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml id="bml2" composition="append">
-	<speech id="speech1"> 
-  	<text>Two </text>
-  </speech>    
-</bml>

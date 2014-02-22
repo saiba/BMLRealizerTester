@@ -1,5 +1,0 @@
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml2" xmlns:bmla="http://www.asap-project.org/bmla">
-  <bmla:parametervaluechange id="pvc1" target="bml1:speech1" paramId="volume" start="bml1:speech1:start" end="bml1:speech1:end">
-    <bmla:trajectory type="linear" initialValue="0" targetValue="100"/>
-	</bmla:parametervaluechange>
-</bml>

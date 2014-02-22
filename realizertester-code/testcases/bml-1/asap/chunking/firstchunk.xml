@@ -1,6 +1,0 @@
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0"  id="bml1">
-  <speech id="speech1" start="5">
-  	<text>This is the first chunk<sync id="chunk"/></text>
-  </speech>
-  <gesture id="g1" lexeme="BEAT" mode="LEFT_HAND" stroke="speech1:chunk"/>
-</bml>

@@ -1,7 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml id="bml4" composition="append-after(bml1,bml2)">
-	<head id="nod1" action="ROTATION" rotation="NOD"/>
-</bml>

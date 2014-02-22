@@ -1,9 +1,0 @@
-<!--
-Expected timing:
-speech1:start = 0
--->
-<bml xmlns="http://www.bml-initiative.org/bml/bml-1.0" xmlns:bmla="http://www.asap-project.org/bmla" id="bml2">
-  <bmla:interrupt id="i1" target="bml1" exclude="speech1"/>
-  <bmla:interrupt id="i2" target="bml1" include="speech1" start="bml1:speech1:s1"/>
-  <bmla:activate id="a1" start="bml1:speech1:s1" target="bml3"/>
-</bml>

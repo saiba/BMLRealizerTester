@@ -1,6 +1,0 @@
-<bml id="bml2" composition="chunk-after(bml1)">
-	<speech id="speech1"> 
-  	<text><sync id="this"/>This is the second chunk.</text>
-  </speech>
-  <gesture id="g1" stroke="speech1:this" hand="LEFT" type="BEAT"/>
-</bml>
