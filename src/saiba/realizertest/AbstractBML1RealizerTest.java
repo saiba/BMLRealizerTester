@@ -100,4 +100,18 @@ public class AbstractBML1RealizerTest extends AbstractDraft1RealizerTest
         realizerHandler.assertNoWarnings();
         realizerHandler.assertNoDuplicateFeedbacks();
     }
+    
+    @Test
+    public void testGazeShift() throws InterruptedException, IOException
+    {
+        String str = readTestFile("core/testgazeshift.xml");
+        realizerHandler.performBML(str);
+        realizerHandler.waitForBMLEndFeedback("bml1");
+        
+        realizerHandler.assertSyncsInOrder("bml1", "gaze1",DefaultSyncPoints.getDefaultSyncPoints("gazeShift"));
+        realizerHandler.assertBlockStartAndStopFeedbacks("bml1");
+        realizerHandler.assertNoExceptions();
+        realizerHandler.assertNoWarnings();
+        realizerHandler.assertNoDuplicateFeedbacks();
+    }
 }
