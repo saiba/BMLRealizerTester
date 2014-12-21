@@ -37,6 +37,7 @@
     <jar jarfile="${dist}/lib/realizertester-utils-draft1.jar">
       <fileset dir="${build}"/>
       <fileset dir="${src}"/>
+	  <fileset file="../../license.txt"/>
     </jar>
   </target>
   
